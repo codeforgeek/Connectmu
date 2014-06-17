@@ -1,0 +1,41 @@
+#usertype
+{
+    height: 300px;
+    width: 420px;
+    border: 2px solid gray;
+    padding: 50px;
+    border-radius: 5px;
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    margin-left: 340px;
+    margin-top: 80px;
+}
+#user_type
+{
+   width: 100px;
+   height: 30px;
+   margin-left: 100px;
+   font-family: 'Segoe UI';
+   font-size: 18px;
+   margin-top: 10px;
+}
+#user_type:hover
+{
+    width: 120px;
+    cursor: pointer;
+}
+#college
+{
+    margin-left: 300px;
+    margin-top: 50px;
+    border: 2px solid gray;
+    height: 400px;
+    width: 500px;
+    padding: 40px;
+}
+#college > select
+{
+    width: 460px;
+    font-family: 'Segoe UI';
+    font-size: 20px;
+}

@@ -1,0 +1,95 @@
+  /* Reset CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+#upperbar
+{
+	height:90px;
+	background:#FFFFF;
+	opacity:2;
+	width:100%;
+}
+#bodycontent
+{
+	position: relative;
+	height: 30%;
+	min-height: 300px;
+	width: 1000px;
+	margin: 0 auto;
+	background:#FEFEFE;
+}
+#footer
+{
+	position:absolute;
+	height:80px;
+	border:1px solid #B366B3;
+	border-radius:15px;
+	opacity:2;
+	width:50%;
+	margin-left:340px;
+	margin-top:20px;
+}
+#logo
+{
+	position:absolute;
+	margin:10px 170px;
+	height:256px;
+	width:256px;
+}
+#lightbox:hover{
+opacity: 0.7;
+filter:alpha(opacity=70);
+}
+#line
+{
+	margin:30px 450px;
+	height:430px;width:2px;
+	border:1px solid #0184cd;
+	background:#0184cd;border-radius:2px;
+}
+#register
+{
+	margin:0px 50px;
+	height:260px;width:260px;
+}
+.button1 {
+	-moz-box-shadow:inset 0px 1px 0px 0px #0184cd;;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #0184cd;;
+	box-shadow:inset 0px 1px 0px 0px #0184cd;;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #0184cd;), color-stop(1, #0184cd;) );
+	background:-moz-linear-gradient( center top, #da3df6 5%, #b51ed0 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#da3df6', endColorstr='#b51ed0');
+	background-color:#0184cd;;
+	border:2px solid #0184cd;;
+	display:inline-block;
+	color:#ffffff;
+	padding:10px;
+	text-decoration:none;
+    width: 310px;
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-size: 22px;
+}.button1:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #0184cd;), color-stop(1, #0184cd;) );
+	background:-moz-linear-gradient( center top, #0184cd; 5%, #0184cd; 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0184cd;', endColorstr='#0184cd;');
+	background-color:#0184cd;
+}.button1:active {
+	position:relative;
+	top:1px;
+}
+

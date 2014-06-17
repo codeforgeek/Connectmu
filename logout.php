@@ -1,0 +1,9 @@
+<?php
+   session_start();
+if(isset($_SESSION['email'])){
+    $_SESSION=array();
+    session_regenerate_id(); 
+    session_destroy();
+    header("location:login.php");
+}
+?>
