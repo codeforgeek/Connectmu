@@ -1,0 +1,26 @@
+#upper_dock > a
+{
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+#upper_dock > a:hover
+{
+    background-color: #0184cd;
+    color: white;
+}
+#upper_dock
+{
+    width:900px;
+}
+#show_profile_pic
+{
+    width: 200px;
+    height: 200px;
+}
+#msgdiv
+{
+    font-family: 'Segoe Print';
+    color: red;
+}
