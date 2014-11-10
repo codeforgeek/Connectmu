@@ -1,6 +1,6 @@
 Connectmu is an online social and education network for Mumbai University. By using Connectmu student can share the resources like notes,ebooks to their college or their branch and connect to other domino of different college.
 
-# What is the difference between us and social network sites ?
+#What is the difference between us and social network sites ?
 
 In order to reach the information to you , other social media sites have dependncy on people where as Connectmu finds and display the correct information to you if it was intended for you automatically.
 
